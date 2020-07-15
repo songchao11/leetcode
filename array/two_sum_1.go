@@ -1,5 +1,6 @@
 package array
 
+//(简单)
 //两数之和
 
 //给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
@@ -12,9 +13,9 @@ package array
 
 //暴力方法
 func twoSum1(nums []int, target int) []int {
-	for i := 0;i < len(nums);i++ {
-		for j := i + 1;j < len(nums);j++ {
-			if nums[i] + nums[j] == target {
+	for i := 0; i < len(nums); i++ {
+		for j := i + 1; j < len(nums); j++ {
+			if nums[i]+nums[j] == target {
 				return []int{i, j}
 			}
 		}
@@ -26,7 +27,7 @@ func twoSum1(nums []int, target int) []int {
 func twoSum2(nums []int, target int) []int {
 	m := map[int]int{}
 	for i, v := range nums {
-		if k, ok := m[target - v]; ok {
+		if k, ok := m[target-v]; ok {
 			return []int{i, k}
 		}
 		m[v] = i

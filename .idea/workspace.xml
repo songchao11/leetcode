@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ebb198f-4816-4f7f-9834-74d0c985fc48" name="Default Changelist" comment="" />
+    <list default="true" id="3ebb198f-4816-4f7f-9834-74d0c985fc48" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked/add_two_numbers_2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathematics/palindrome_9.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathematics/reverse_7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mathematics/roman_to_int_13.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/str/length_of_longest_substring_3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/two_sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/array/two_sum_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked/add_two_numbers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +27,13 @@
     </option>
   </component>
   <component name="GOROOT" path="F:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ec3PcNJAWMCthz9W0HLgmJcU3P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -42,7 +59,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestTwoSum in twosum_test.go (1)">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestCwoSum in twosum_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -59,15 +84,6 @@
       <framework value="gotest" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/array/twonumssum_test.go" />
-      <pattern value="^TestTwoSum$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestTwoSum in twonumssum_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <working_directory value="$PROJECT_DIR$/array" />
-      <framework value="gotest" />
-      <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/array/twonumssum_test.go" />
       <pattern value="^TestTwoSum$" />
       <method v="2" />
@@ -94,15 +110,28 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.TestTwoSum in twosum_test.go (1)" />
         <item itemvalue="Go Test.TestCwoSum in twosum_test.go" />
         <item itemvalue="Go Test.TestTwoSum in twosum_test.go" />
         <item itemvalue="Go Test.TestTwoSum in twonumssum_test.go (1)" />
-        <item itemvalue="Go Test.TestTwoSum in twonumssum_test.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
